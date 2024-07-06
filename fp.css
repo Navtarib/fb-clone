@@ -1,0 +1,124 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: lightgray;
+    
+}
+.forgetnav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px 0 20px;
+    height: 60px;
+}
+.forgetnav img{
+    height: 70px;
+
+}
+.forgetnav a{
+    text-decoration: none;
+    color: blue;
+}
+.forgetnav input{
+    width: 188px;
+    height: 42px;
+    margin: 10px;
+    border-radius: 6px;
+
+}
+.forgetnav button{
+    background-color: blue;
+    color: white;
+    width: 70px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 6px;
+    padding-left: 8px;
+    padding-right: 10px;
+
+}
+.forgetnav button a{
+    color: white;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1080px;
+}
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.forgetform{
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    flex-direction: column;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 1px 2px rgba(0,0,0,.1);
+    margin-top: 84px;
+    width: 500px;
+    padding: 18px;
+    background-color: white;
+
+}
+.forgetform h2{
+    font-size: 22px;
+    margin-bottom: 10px;
+
+}
+.forgetform p{
+    font-size: 20px;
+    margin-bottom: 24px;
+
+}
+hr{
+    border: 0;
+    border-top: 1px solid gray;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.forgetform input{
+    width: 450px;
+    padding: 16px 0 16px 16px;
+    border-radius: 6px;
+    font-size: 16px;
+    border: 0;
+    margin-bottom: 16px;
+    box-shadow: 0 0 1;
+
+}
+.forgetform span{
+    justify-content: flex-end;
+    display: flex;
+
+}
+.forgetform button{
+    width: 100px;
+    padding: 0 16px ;
+    border: none;
+    border-radius: 10px;
+    line-height: 14px;
+    font-size: 20px;
+    margin-bottom: 24px;
+    margin-right: 10px;
+    background-color: blue;
+    color: white;
+    padding: 10px;
+}
+.btn1{
+    background-color: gray;
+    color: black;
+    
+}
